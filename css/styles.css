@@ -1,4 +1,6 @@
 /* Fonts */
-body {
+body h1 {
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 26px;
 }
