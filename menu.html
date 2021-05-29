@@ -22,10 +22,71 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- Bootstrap Hamburger Menu, needs styling -->
+    <!-- I thought setting the image as a background image might work here -->
+    <header>
+        <div class="menu-bg-image">
+            <div class="pos-f-t">
+                <div class="collapse bar-collapse" id="navbarToggleExternalContent">
+                    <div class="bg-dark p-4">
+                        <h5 class="text-light h4">Navigation</h5>
+                        <a href="home.html" class="d-block">Home</a>
+                        <a href="menu.html" class="d-block nav-item-color">Menu</a>
+                        <a href="locations.html" class="d-block">Visit Us</a>
+                        <a href="catering.html" class="d-block">Catering</a>
+                        <a href="about.html" class="d-block">Our Story</a>
+                    </div>
+                </div>
+                <nav class="navbar navbar-dark bg-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+                        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <img src="img\nav-logo.png" title="Rosewood Cafe logo" alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
+                </nav>
+            </div>
+            <div>
+                <h2>Explore Our Menu</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a aperiam ipsam sapiente.</p>
+            </div>
+        </div>
+    </header>
 
+    <main>
+        <div>
+            <!--Lightbox for the menu?-->
+            <img src="img\menu.png" title="Rosewood Cafe menu" alt="Rosewood Cafe Menu, navigate to the visit us page to find a location to call for items and prices" />
+            <div>
+                <img src="img\topleftcorner.png" title="this sure is a nice frame" alt="light brown corner of a frame" />
+                <img src="img\toprightcorner.png" title="this sure is a nice frame" alt="light brown corner of a frame" />
+                <h2>& There's More</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta vero laudantium, rerum quasi quam tempora sed sequi
+                    quaerat, voluptas ipsum ratione necessitatibus. Culpa ratione repudiandae, molestias velit tempore incidunt magni.
+                </p>
+                <button type="button" class="btn btn-outline">Catering</button>
+                <img src="img\bottomleftcorner.png" title="this sure is a nice frame" alt="light brown corner of a frame" />
+                <img src="img\bottomrightcorner.png" title="this sure is a nice frame" alt="light brown corner of a frame" />
+            </div>
+        </div>
+    </main>
 
-
+    <footer>
+        <div>
+            <img src="img\nav-logo.png" title="Rosewood Cafe logo"
+                alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
+            <div>
+                <a href="home.html" class="d-block">Home</a>
+                <a href="menu.html" class="d-block">Menu</a>
+                <a href="locations.html" class="d-block">Locations</a>
+                <a href="catering.html" class="d-block">Catering</a>
+                <a href="about.html" class="d-block">Our Story</a>
+            </div>
+            <div class="container">
+                <a href="#"><img src="img\nav-fb.png" title="visit our Facebook!" alt="brown Facebook logo" /></a>
+                <a href="#"><img src="img\nav-ig.png" title="visit our Instagram!" alt="brown Instagram logo" /></a>
+            </div>
+        </div>
+    </footer>
     <!--Bootstrap Scripts w/ jQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
