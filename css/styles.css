@@ -1,3 +1,27 @@
 body {
   background-color: #FFF6EE;
 }
+.button-style {
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-size: 31px;
+  color: #49281A;
+  text-transform: uppercase;
+  border: 2px solid #AB6831;
+  border-radius: 0;
+  padding: 0rem 3.5rem;
+}
+.navbar-light .navbar-toggler {
+  border: 2px solid #49281a;
+  border-radius: 0;
+}
+.open-nav {
+  background-color: #49281A;
+  font-family: 'Lato', sans-serif;
+}
+.open-nav h5 {
+  color: #DFB78C;
+}
+.open-nav a {
+  color: #FFF6EE;
+}
