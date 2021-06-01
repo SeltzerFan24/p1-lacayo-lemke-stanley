@@ -31,6 +31,13 @@
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
 }
+#htwo {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #49281A;
+  line-height: 3.8rem;
+}
 .frame-top {
   position: relative;
   display: flex;
@@ -65,15 +72,15 @@
   transform: translateY(8px);
 }
 body {
-  background-color: #fff6ee;
+  background-color: #FFF6EE;
 }
 .button-style {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 31px;
-  color: #49281a;
+  color: #49281A;
   text-transform: uppercase;
-  border: 2px solid #ab6831;
+  border: 2px solid #AB6831;
   border-radius: 0;
   padding: 0rem 3.5rem;
 }
@@ -88,13 +95,21 @@ button:focus {
   background-image: url(../img/navbar-dark.png);
 }
 .open-nav {
-  background-color: #49281a;
+  background-color: #49281A;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 .open-nav h5 {
-  color: #dfb78c;
+  color: #DFB78C;
 }
 .open-nav a {
-  color: #fff6ee;
+  color: #FFF6EE;
+}
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #49281A;
+  line-height: 3.8rem;
 }
