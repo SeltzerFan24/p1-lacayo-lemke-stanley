@@ -18,6 +18,7 @@ body {
 .open-nav {
   background-color: #49281A;
   font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 .open-nav h5 {
   color: #DFB78C;
