@@ -1,28 +1,100 @@
+#frame-top {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+}
+#frame-rc {
+  display: flex;
+  width: 50%;
+  flex-direction: row-reverse;
+}
+#frame-lc {
+  display: flex;
+  width: 50%;
+}
+#frame-bottom {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0 10px 10px 10px;
+}
+#hvr-sink {
+  display: inline-block;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+.frame-top {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+}
+.frame-bottom {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0 10px 10px 10px;
+}
+.frame-lc {
+  display: flex;
+  width: 50%;
+}
+.frame-rc {
+  display: flex;
+  width: 50%;
+  flex-direction: row-reverse;
+}
+.social-img:hover {
+  display: inline-block;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
 body {
-  background-color: #FFF6EE;
+  background-color: #fff6ee;
 }
 .button-style {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 31px;
-  color: #49281A;
+  color: #49281a;
   text-transform: uppercase;
-  border: 2px solid #AB6831;
+  border: 2px solid #ab6831;
   border-radius: 0;
   padding: 0rem 3.5rem;
 }
+button:focus {
+  outline: none;
+}
 .navbar-light .navbar-toggler {
   border: 2px solid #49281a;
-  border-radius: 0;
+  border: 0;
+}
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  background-image: url(../img/navbar-dark.png);
 }
 .open-nav {
-  background-color: #49281A;
+  background-color: #49281a;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 .open-nav h5 {
-  color: #DFB78C;
+  color: #dfb78c;
 }
 .open-nav a {
-  color: #FFF6EE;
+  color: #fff6ee;
 }

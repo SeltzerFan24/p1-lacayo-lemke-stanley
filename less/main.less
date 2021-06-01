@@ -1,4 +1,30 @@
 @import "./variables.less";
+@import "./mixins.less";
+
+
+//Frame
+.frame-top {
+    #frame-top
+}
+
+.frame-bottom {
+    #frame-bottom
+}
+
+.frame-lc {
+    #frame-lc
+}
+
+.frame-rc {
+    #frame-rc
+}
+
+//Social Icon Hover
+
+.social-img:hover {
+    #hvr-sink
+}
+
 
 body {
     background-color: @primary-color;
@@ -15,15 +41,23 @@ body {
     padding: @button-padding;
 }
 
+button:focus {
+    outline: none;
+}
+
 .navbar-light {
     .navbar-toggler {
         border: @nav-menu-border;
-        border-radius: @no-radius;
+        border: @no-radius;
+        .navbar-toggler-icon {
+            background-image: url(../img/navbar-dark.png);
+        }
     }
 }
 
+
 .open-nav {
-    background-color: #49281A;
+    background-color: @dark-brown;
     font-family: @body-font;
     font-weight: @nav-weight;
         h5{
