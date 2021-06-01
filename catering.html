@@ -15,7 +15,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display&display=swap"
         rel="stylesheet">
 
     <title>Catering</title>
@@ -25,34 +25,31 @@
     <!-- Bootstrap Hamburger Menu, needs styling -->
     <!-- I thought setting the image as a background image might work here -->
     <header>
-        <div class="catering-bg-image">
-            <div class="pos-f-t">
-                <div class="collapse bar-collapse" id="navbarToggleExternalContent">
-                    <div class="bg-dark p-4">
-                        <h5 class="text-light h4">Navigation</h5>
-                        <a href="home.html" class="d-block">Home</a>
-                        <a href="menu.html" class="d-block nav-item-color">Menu</a>
-                        <a href="locations.html" class="d-block">Visit Us</a>
-                        <a href="catering.html" class="d-block">Catering</a>
-                        <a href="about.html" class="d-block">Our Story</a>
-                    </div>
+        <div class="pos-f-t">
+            <div class="collapse bar-collapse" id="navbarToggleExternalContent">
+                <div class="open-nav p-4">
+                    <h5 class="h4">Navigation</h5>
+                    <a href="home.html" class="d-block">Home</a>
+                    <a href="menu.html" class="d-block ">Menu</a>
+                    <a href="locations.html" class="d-block">Visit Us</a>
+                    <a href="catering.html" class="d-block">Catering</a>
+                    <a href="about.html" class="d-block">Our Story</a>
                 </div>
-                <nav class="navbar navbar-dark bg-dark">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <img src="img\nav-logo.png" title="Rosewood Cafe logo"
-                        alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
-                </nav>
             </div>
-            <div>
-                <h2>Catering</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat
-                    adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a
-                    aperiam ipsam sapiente.</p>
-            </div>
+            <nav class="navbar navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="img\nav-logo.png" title="Rosewood Cafe logo" alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
+            </nav>
+        </div>
+        <div>
+            <h2>Catering</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat
+                adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a
+                aperiam ipsam sapiente.</p>
         </div>
     </header>
 
@@ -82,7 +79,7 @@
                     <label for="exampleFormControlTextarea1">Share your request in detail here:</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn button-style">Submit</button>
             </form>
             <img src="img\catering-donuts.png" title="we bring the donuts to you" alt="four brown donuts with light brown glaze" />
         </div>

@@ -15,7 +15,7 @@
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display&display=swap"
         rel="stylesheet">
 
     <title>Locations</title>
@@ -25,26 +25,26 @@
     <!-- Bootstrap Hamburger Menu, needs styling -->
     <!-- I thought setting the image as a background image might work here -->
     <header>
-        <div class="visit-bg-image">
-            <div class="pos-f-t">
-                <div class="collapse bar-collapse" id="navbarToggleExternalContent">
-                    <div class="bg-dark p-4">
-                        <h5 class="text-light h4">Navigation</h5>
-                        <a href="home.html" class="d-block">Home</a>
-                        <a href="menu.html" class="d-block nav-item-color">Menu</a>
-                        <a href="locations.html" class="d-block">Visit Us</a>
-                        <a href="catering.html" class="d-block">Catering</a>
-                        <a href="about.html" class="d-block">Our Story</a>
-                    </div>
+        <div class="pos-f-t">
+            <div class="collapse bar-collapse" id="navbarToggleExternalContent">
+                <div class="open-nav p-4">
+                    <h5 class="h4">Navigation</h5>
+                    <a href="home.html" class="d-block">Home</a>
+                    <a href="menu.html" class="d-block ">Menu</a>
+                    <a href="locations.html" class="d-block">Visit Us</a>
+                    <a href="catering.html" class="d-block">Catering</a>
+                    <a href="about.html" class="d-block">Our Story</a>
                 </div>
-                <nav class="navbar navbar-dark bg-dark">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
-                        aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <img src="img\nav-logo.png" title="Rosewood Cafe logo" alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
-                </nav>
             </div>
+            <nav class="navbar navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <img src="img\nav-logo.png" title="Rosewood Cafe logo" alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
+            </nav>
+        </div>
             <div>
                 <div>
                     <img src="img\topleftcorner.png" title="this sure is a nice frame" alt="light brown corner of a frame" />
@@ -79,7 +79,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam aut delectus iste beatae pariatur reprehenderit odio officiis doloremque consectetur. Fugit in velit facere commodi veritatis atque dolores corporis autem ullam!</p>
                 <p>4586 Ponce De Leon<br>Middleburg, FL 39827</p>
                 <p>800-867-5309</p>
-                <button type="button" class="btn btn-outline">Directions</button>
+                <a class="btn button-style" href="#" role="button">Directions</a>
             </div>
         </div>
         <div>
@@ -92,7 +92,7 @@
                     corporis autem ullam!</p>
                 <p>32279 Redwood Blvd<br>Miami, FL 33146</p>
                 <p>216-930-2621</p>
-                <button type="button" class="btn btn-outline">Directions</button>
+                <a class="btn button-style" href="#" role="button">Directions</a>
             </div>
         </div>
         <div>
@@ -105,7 +105,7 @@
                     corporis autem ullam!</p>
                 <p>470 NE Stone Rd<br>Coral Gables, FL 33156</p>
                 <p>305-222-8091</p>
-                <button type="button" class="btn btn-outline">Directions</button>
+                <a class="btn button-style" href="#" role="button">Directions</a>
             </div>
         </div>
     </main>
@@ -118,7 +118,7 @@
                 <img src="img\bottomleftcorner.png" title="this sure is a nice frame" alt="light brown corner of a frame" />
                 <img src="img\bottomrightcorner.png" title="this sure is a nice frame" alt="light brown corner of a frame" />
             </div>
-            <h2>@rosewoodcafe</h2>
+            <h2>Find us on Instagram!</h2>
             <!--Carosel, see https://getbootstrap.com/docs/4.1/components/carousel/ for documentation on options including interval time between transitions-->
             <div id="carouselOptions" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
@@ -142,7 +142,7 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="btn btn-outline">Follow Us</button>
+            <a class="btn button-style" href="#" role="button">Follow Us</a>
         </div>
     </section>
 
