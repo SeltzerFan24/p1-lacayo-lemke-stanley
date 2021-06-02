@@ -113,7 +113,7 @@ h2 {
   color: #49281A;
   line-height: 3.8rem;
 }
-footer {
-  background-color: #fff6ee;
+footer,
+a {
   color: #ffffff;
 }
