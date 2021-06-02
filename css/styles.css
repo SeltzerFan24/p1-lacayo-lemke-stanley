@@ -82,7 +82,7 @@ body {
   text-transform: uppercase;
   border: 2px solid #AB6831;
   border-radius: 0;
-  padding: 0rem 3.5rem;
+  padding: 0rem 2.5rem;
 }
 button:focus {
   outline: none;
