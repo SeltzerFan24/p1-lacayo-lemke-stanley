@@ -1,0 +1,40 @@
+#frame-top {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 10px 10px 0 10px;
+}
+#frame-rc {
+  display: flex;
+  width: 50%;
+  flex-direction: row-reverse;
+}
+#frame-lc {
+  display: flex;
+  width: 50%;
+}
+#frame-bottom {
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding: 0 10px 10px 10px;
+}
+#hvr-sink {
+  display: inline-block;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  -webkit-transform: translateY(8px);
+  transform: translateY(8px);
+}
+#htwo {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #49281A;
+  line-height: 3.8rem;
+}
