@@ -113,3 +113,13 @@ h2 {
   color: #49281A;
   line-height: 3.8rem;
 }
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: #AB6831;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
