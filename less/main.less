@@ -103,11 +103,26 @@ p {
             max-width: @home-btn-lg-w;
         }
     }
+    @media (min-width: 1201px){
+        .home-menu-button {
+            max-width: @home-btn-xl-w;
+        }
+    }
 }
 
 .home-main {
-    .home-main-p {
-        max-width: @home-p-lg-w;
+    @media (min-width: 993px) {
+        .home-main-p {
+            max-width: @home-p-lg-w;
+        }
+    }
+    @media (min-width: 1201px) {
+        .home-main-p {
+            max-width: @home-p-xl-w;
+            p {
+                font-size: @xl-home-main-size;
+            }
+        } 
     }
 }
 
