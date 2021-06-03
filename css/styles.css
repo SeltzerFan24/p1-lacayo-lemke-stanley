@@ -37,6 +37,10 @@
   color: #49281a;
   border-color: #ab6831;
 }
+#jumbo-photos {
+  background-repeat: no-repeat;
+  max-height: 500px;
+}
 .frame-top {
   position: relative;
   display: flex;
@@ -104,6 +108,11 @@ button:focus {
 .open-nav a {
   color: #fff6ee;
 }
+.nav-white-logo {
+  width: 60%;
+  max-width: 200px;
+  padding: 5px;
+}
 .index-logo {
   text-align: center;
   padding: 150px 0 20px 0;
@@ -139,4 +148,12 @@ button:focus {
   width: 100%;
   max-width: 60px;
   padding: 5px;
+}
+.location-body {
+  background-image: url("../img/location-jumbo.png");
+  background-repeat: no-repeat;
+}
+.w-100 {
+  width: 90%;
+  max-width: 300px;
 }
