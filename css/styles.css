@@ -186,6 +186,11 @@ p {
   color: #49281A;
   line-height: normal;
 }
+.about-bg-image {
+  background-image: url("../img/about-jumbo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
 footer,
 a {
   color: white;

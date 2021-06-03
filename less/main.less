@@ -1,17 +1,6 @@
 @import "./variables.less";
 @import "./mixins.less";
 
-
-//nav logo resize for all screen widths
-.navlogo {
-    max-width: @navlogo-xs;
-    @media (min-width: 769px) {
-        max-width: @navlogo-s;
-    }
-}
-
-
-
 //Frame
 .frame-top {
     #frame-top
@@ -141,6 +130,16 @@ p {
         #htwolarge
     }
 }
+
+// about page
+
+.about-bg-image {
+    background-image: @about-bg;
+    background-position: @about-bg-position;
+    background-repeat: @no-repeat;
+}
+
+
 footer, a { 
     color: @white;
    }
