@@ -37,10 +37,6 @@
   color: #49281a;
   border-color: #ab6831;
 }
-#jumbo-photos {
-  background-repeat: no-repeat;
-  max-height: 500px;
-}
 .frame-top {
   position: relative;
   display: flex;
