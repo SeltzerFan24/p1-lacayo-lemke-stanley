@@ -2,7 +2,7 @@
 @import "./mixins.less";
 
 
-//Frame
+//Frame for all Pages
 .frame-top {
     #frame-top
 }
@@ -67,3 +67,44 @@ button:focus {
             color: @primary-color;
         }
 }
+
+
+//Index Page
+
+.index-logo {
+    text-align: center;
+    padding: 150px 0 20px 0;
+    img {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+.index-info {
+    text-align: center;
+    .index-button {
+        color: @light-brown;
+        border-color: @primary-color;
+        transition: .5s;
+        &:hover{
+           #button-hover
+        }
+    }
+    .index-p {
+        color: @primary-color;
+        text-transform: uppercase;
+        padding: 20px;
+        padding: 20px 0 20px 0;
+    }
+}
+
+.index-social-section {
+    text-align: center;
+    .index-social {
+        width: 100%;
+        max-width: 60px;
+        padding: 5px;
+    }
+}
+
+
