@@ -68,7 +68,7 @@ button:focus {
         }
 }
 
-// mobile text
+// home mobile text
 h1, h2 {
     #htwo;
 }
@@ -83,4 +83,36 @@ p {
     font-family: @body-font;
     font-weight: @body-weight;
     font-size: @mobile-body-size;
+    @media (min-width: 993px) {
+        font-size: @body-size;
+    }
+}
+
+.home-sec-two {
+    @media (min-width: 993px) {
+        h1 {
+            #htwolarge;
+            .home-line-break{
+                display: @displaynone;
+            }
+        }
+        .home-p-lg-w {
+            max-width: @home-p-lg-w;
+        }
+        .home-menu-button {
+            max-width: @home-btn-lg-w;
+        }
+    }
+}
+
+.home-main {
+    .home-main-p {
+        max-width: @home-p-lg-w;
+    }
+}
+
+.home-sec-three {
+    h2{
+        #htwolarge
+    }
 }
