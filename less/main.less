@@ -2,6 +2,16 @@
 @import "./mixins.less";
 
 
+//nav logo resize for all screen widths
+.navlogo {
+    max-width: @navlogo-xs;
+    @media (min-width: 769px) {
+        max-width: @navlogo-s;
+    }
+}
+
+
+
 //Frame
 .frame-top {
     #frame-top

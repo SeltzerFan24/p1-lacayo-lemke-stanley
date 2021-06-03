@@ -45,6 +45,14 @@
   color: #49281A;
   line-height: normal;
 }
+.navlogo {
+  max-width: 30%;
+}
+@media (min-width: 769px) {
+  .navlogo {
+    max-width: 20%;
+  }
+}
 .frame-top {
   position: relative;
   display: flex;
