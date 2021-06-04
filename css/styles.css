@@ -31,14 +31,12 @@
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
 }
-
 #button-hover {
-  background-color: #fad4d4;
-  transition: .5s;
-  color: #49281a;
-  border-color: #ab6831;
+  background-color: #FAD4D4;
+  transition: 0.5s;
+  color: #49281A;
+  border-color: #AB6831;
 }
-
 #htwo {
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
@@ -52,15 +50,6 @@
   font-weight: 400;
   color: #49281A;
   line-height: normal;
-}
-.navlogo {
-  max-width: 30%;
-}
-@media (min-width: 769px) {
-  .navlogo {
-    max-width: 20%;
-  }
-
 }
 .frame-top {
   position: relative;
@@ -128,6 +117,55 @@ button:focus {
 }
 .open-nav a {
   color: #FFF6EE;
+}
+.nav-white-logo {
+  width: 60%;
+  max-width: 200px;
+  padding: 5px;
+}
+.index-logo {
+  text-align: center;
+  padding: 150px 0 20px 0;
+}
+.index-logo img {
+  width: 100%;
+  max-width: 500px;
+}
+.index-info {
+  text-align: center;
+}
+.index-info .index-button {
+  color: #DFB78C;
+  border-color: #FFF6EE;
+  transition: 0.5s;
+}
+.index-info .index-button:hover {
+  background-color: #FAD4D4;
+  transition: 0.5s;
+  color: #49281A;
+  border-color: #AB6831;
+}
+.index-info .index-p {
+  color: #FFF6EE;
+  text-transform: uppercase;
+  padding: 20px;
+  padding: 20px 0 20px 0;
+}
+.index-social-section {
+  text-align: center;
+}
+.index-social-section .index-social {
+  width: 100%;
+  max-width: 60px;
+  padding: 5px;
+}
+.location-body {
+  background-image: url("../img/location-jumbo.png");
+  background-repeat: no-repeat;
+}
+.w-100 {
+  width: 90%;
+  max-width: 300px;
 }
 h1,
 h2 {
@@ -199,83 +237,4 @@ p {
   background-image: url("../img/about-jumbo.png");
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.footer-logo-left  {
-  float: left;
-}
-
-a.footer-nav {
-  text-align: center;
-}
-
-img.menu-container {
-  float: left;
-  width: 50%;
-}
-
-.menu-right {
-  float: right;
-  width: 50%;
-}
-
-.hero-menu {
-  width:100%;
-}
-
-
-#hero1{
-  background:url(img/menu-jumbo.png);
-   background-size:cover;
-   background-position:center center;
-   background-attachment:fixed;
- }
-.nav-white-logo {
-  width: 60%;
-  max-width: 200px;
-  padding: 5px;
-}
-.index-logo {
-  text-align: center;
-  padding: 150px 0 20px 0;
-}
-.index-logo img {
-  width: 100%;
-  max-width: 500px;
-}
-.index-info {
-  text-align: center;
-}
-.index-info .index-button {
-  color: #dfb78c;
-  border-color: #fff6ee;
-  transition: .5s;
-}
-.index-info .index-button:hover {
-  background-color: #fad4d4;
-  transition: .5s;
-  color: #49281a;
-  border-color: #ab6831;
-}
-.index-info .index-p {
-  color: #fff6ee;
-  text-transform: uppercase;
-  padding: 20px;
-  padding: 20px 0 20px 0;
-}
-.index-social-section {
-  text-align: center;
-}
-.index-social-section .index-social {
-  width: 100%;
-  max-width: 60px;
-  padding: 5px;
-}
-.location-body {
-  background-image: url("../img/location-jumbo.png");
-  background-repeat: no-repeat;
-}
-.w-100 {
-  width: 90%;
-  max-width: 300px;
 }
