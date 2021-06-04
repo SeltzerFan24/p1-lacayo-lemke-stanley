@@ -194,12 +194,15 @@ p {
 
 // about page
 
-.about-bg-image {
-    background-image: @about-bg;
-    background-position: @about-bg-position;
-    background-repeat: @no-repeat;
-}
+//.about-bg-image {
+    //background-image: @about-bg;
+   // background-repeat: @no-repeat;
+//}
 
+.about-bg-image {
+    z-index: @about-z-index;
+    position: @absolute;
+}
 
 footer, a { 
     color: @white;
