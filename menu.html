@@ -17,6 +17,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Playfair+Display&display=swap"
         rel="stylesheet">
+    
+    <!-- Lightbox -->
+    <link href="css/lightbox.css" rel="stylesheet" />
 
     <title>Our Menu</title>
 </head>
@@ -47,14 +50,15 @@
     </div>
         <div>
             <h2>Explore Our Menu</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a aperiam ipsam sapiente.</p>
+            <p>Lorem hello ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a aperiam ipsam sapiente.</p>
         </div>
     </header>
 
     <main>
         <div>
-            <!--Lightbox for the menu?-->
-            <img src="img\menu.png" title="Rosewood Cafe menu" alt="Rosewood Cafe Menu, navigate to the visit us page to find a location to call for items and prices" />
+            <!--Lightbox for the menu-->
+            <a href="img\menu.png" data-lightbox="Our Menu" data-title="Rosewood Cafe Menu">
+            <img src="img\menu.png" title="Rosewood Cafe menu" alt="Rosewood Cafe Menu, navigate to the visit us page to find a location" /></a>
             <div>
                 <div class="frame-top">
                     <div class="frame-lc"><img src="img\topleftcorner.png" title="this sure is a nice frame"
@@ -79,7 +83,7 @@
 
     <footer>
         <div>
-            <img src="img\nav-logo.png" title="Rosewood Cafe logo"
+            <img src="img\footer-logo.png" title="Rosewood Cafe logo"
                 alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
             <div>
                 <a href="home.html" class="d-block">Home</a>
@@ -103,6 +107,8 @@
         crossorigin="anonymous"></script>
     <!--Main js script-->
     <script src="js/main.js"></script>
+    <!--Lightbox js script-->
+    <script src="js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>
