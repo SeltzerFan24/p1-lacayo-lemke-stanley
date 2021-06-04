@@ -45,6 +45,7 @@
   color: #49281A;
   line-height: 3.8rem;
 }
+
 #htwolarge {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
@@ -195,7 +196,7 @@ p {
   line-height: normal;
 }
 .about-bg-image {
-  background-image: url("../img/about-jumbo.png");
+  background-image: url("..img/about-jumbo.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -205,8 +206,6 @@ p {
   transition: .5s;
   color: #49281a;
   border-color: #ab6831;
-
-}
 
   .footer-logo-left  {
     float: left;
@@ -229,4 +228,3 @@ p {
   .hero-menu {
     width:50%;
   }
-
