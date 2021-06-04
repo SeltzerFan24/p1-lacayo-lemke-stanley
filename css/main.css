@@ -38,6 +38,13 @@
   color: #49281A;
   line-height: 3.8rem;
 }
+#htwolarge {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #49281A;
+  line-height: normal;
+}
 .frame-top {
   position: relative;
   display: flex;
@@ -82,7 +89,7 @@ body {
   text-transform: uppercase;
   border: 2px solid #ab6831;
   border-radius: 0;
-  padding: 0rem 3.5rem;
+  padding: 0rem 2.5rem;
 }
 button:focus {
   outline: none;
@@ -112,6 +119,49 @@ h2 {
   font-weight: 400;
   color: #49281A;
   line-height: 3.8rem;
+}
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: #ab6831;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+@media (min-width: 993px) {
+  p {
+    font-size: 26px;
+  }
+}
+@media (min-width: 993px) {
+  .home-sec-two h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #49281A;
+    line-height: normal;
+  }
+  .home-sec-two h1 .home-line-break {
+    display: none;
+  }
+  .home-sec-two .home-p-lg-w {
+    max-width: 75%;
+  }
+  .home-sec-two .home-menu-button {
+    max-width: 35%;
+  }
+}
+.home-main .home-main-p {
+  max-width: 75%;
+}
+.home-sec-three h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #49281A;
+  line-height: normal;
 }
 footer,
 a {
