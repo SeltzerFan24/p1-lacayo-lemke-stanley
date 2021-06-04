@@ -1,7 +1,9 @@
 @import "./variables.less";
 @import "./mixins.less";
 
-//Frame
+
+
+//Frame for all Pages
 .frame-top {
     #frame-top
 }
@@ -65,6 +67,65 @@ button:focus {
         a {
             color: @primary-color;
         }
+}
+
+
+.nav-white-logo {
+    width: 60%;
+    max-width: 200px;
+    padding: 5px;
+}
+
+
+//Index Page
+
+.index-logo {
+    text-align: center;
+    padding: 150px 0 20px 0;
+    img {
+        width: 100%;
+        max-width: 500px;
+    }
+}
+
+.index-info {
+    text-align: center;
+    .index-button {
+        color: @light-brown;
+        border-color: @primary-color;
+        transition: .5s;
+        &:hover{
+           #button-hover
+        }
+    }
+    .index-p {
+        color: @primary-color;
+        text-transform: uppercase;
+        padding: 20px;
+        padding: 20px 0 20px 0;
+    }
+}
+
+.index-social-section {
+    text-align: center;
+    .index-social {
+        width: 100%;
+        max-width: 60px;
+        padding: 5px;
+    }
+}
+
+//Location Page
+
+.location-body {
+        background-image: url("../img/location-jumbo.png");
+        background-repeat: no-repeat;
+}
+
+//Carousel
+.w-100 {
+    width: 90%;
+    max-width: 300px;
 }
 
 // home mobile text
@@ -143,3 +204,4 @@ p {
 footer, a { 
     color: @white;
    }
+
