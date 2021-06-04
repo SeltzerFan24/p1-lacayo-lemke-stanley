@@ -46,6 +46,7 @@
   color: #49281A;
   line-height: 3.8rem;
 }
+
 #htwolarge {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
@@ -196,64 +197,12 @@ p {
   line-height: normal;
 }
 .about-bg-image {
-  background-image: url("../img/about-jumbo.png");
+  background-image: url("..img/about-jumbo.png");
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.footer-logo-left  {
-  float: left;
-}
-
-
-a.footer-nav {
-  text-align: center;
-}
-
-img.menu-container {
-  float: left;
-  width: 50%;
-}
-
-.menu-right {
-  float: right;
-  width: 50%;
-}
-
-.hero-menu {
-  width:100%;
-}
-
-
-#hero1{
-  background:url(img/menu-jumbo.png);
-   background-size:cover;
-   background-position:center center;
-   background-attachment:fixed;
- }
-
-.nav-white-logo {
-  width: 60%;
-  max-width: 200px;
-  padding: 5px;
-}
-.index-logo {
-  text-align: center;
-  padding: 150px 0 20px 0;
-}
-.index-logo img {
-  width: 100%;
-  max-width: 500px;
-}
-.index-info {
-  text-align: center;
-}
-.index-info .index-button {
-  color: #dfb78c;
-  border-color: #fff6ee;
-  transition: .5s;
-}
-.index-info .index-button:hover {
+#button-hover {
   background-color: #fad4d4;
   transition: .5s;
   color: #49281a;
@@ -281,3 +230,25 @@ img.menu-container {
   width: 90%;
   max-width: 300px;
 }
+
+  .footer-logo-left  {
+    float: left;
+  }
+  
+  a.footer-nav {
+    text-align: center;
+  }
+  
+  img.menu-container {
+    float: left;
+    width: 50%;
+  }
+  
+  .menu-right {
+    float: right;
+    width: 50%;
+  }
+  
+  .hero-menu {
+    width:50%;
+  }
