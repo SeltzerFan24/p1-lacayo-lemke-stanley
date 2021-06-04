@@ -31,11 +31,35 @@
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
 }
+<<<<<<< HEAD
 #button-hover {
   background-color: #fad4d4;
   transition: .5s;
   color: #49281a;
   border-color: #ab6831;
+=======
+#htwo {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #49281A;
+  line-height: 3.8rem;
+}
+#htwolarge {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #49281A;
+  line-height: normal;
+}
+.navlogo {
+  max-width: 30%;
+}
+@media (min-width: 769px) {
+  .navlogo {
+    max-width: 20%;
+  }
+>>>>>>> 3e087b71b0b14c618ace4356aeb5c62c0c898001
 }
 .frame-top {
   position: relative;
@@ -71,15 +95,15 @@
   transform: translateY(8px);
 }
 body {
-  background-color: #fff6ee;
+  background-color: #FFF6EE;
 }
 .button-style {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 31px;
-  color: #49281a;
+  color: #49281A;
   text-transform: uppercase;
-  border: 2px solid #ab6831;
+  border: 2px solid #AB6831;
   border-radius: 0;
   padding: 0rem 2.5rem;
 }
@@ -94,15 +118,90 @@ button:focus {
   background-image: url(../img/navbar-dark.png);
 }
 .open-nav {
-  background-color: #49281a;
+  background-color: #49281A;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 .open-nav h5 {
-  color: #dfb78c;
+  color: #DFB78C;
 }
 .open-nav a {
-  color: #fff6ee;
+  color: #FFF6EE;
+}
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: #49281A;
+  line-height: 3.8rem;
+}
+h3 {
+  font-family: 'Playfair Display', serif;
+  color: #AB6831;
+  text-transform: uppercase;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 1.4rem;
+}
+@media (min-width: 993px) {
+  p {
+    font-size: 26px;
+  }
+}
+@media (min-width: 993px) {
+  .home-sec-two h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: 400;
+    color: #49281A;
+    line-height: normal;
+  }
+  .home-sec-two h1 .home-line-break {
+    display: none;
+  }
+  .home-sec-two .home-p-lg-w {
+    max-width: 75%;
+  }
+  .home-sec-two .home-menu-button {
+    max-width: 35%;
+  }
+}
+@media (min-width: 1201px) {
+  .home-sec-two .home-menu-button {
+    max-width: 26%;
+  }
+}
+@media (min-width: 993px) {
+  .home-main .home-main-p {
+    max-width: 75%;
+  }
+}
+@media (min-width: 1201px) {
+  .home-main .home-main-p {
+    max-width: 100%;
+  }
+  .home-main .home-main-p p {
+    font-size: 24px;
+  }
+}
+.home-sec-three h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #49281A;
+  line-height: normal;
+}
+.about-bg-image {
+  background-image: url("../img/about-jumbo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer,
+a {
+  color: white;
 }
 .nav-white-logo {
   width: 60%;
