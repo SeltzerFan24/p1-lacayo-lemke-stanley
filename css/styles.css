@@ -37,6 +37,7 @@
   transition: .5s;
   color: #49281a;
   border-color: #ab6831;
+}
 
 #htwo {
   font-family: 'Playfair Display', serif;
@@ -203,7 +204,6 @@ p {
 .footer-logo-left  {
   float: left;
 }
-<<<<<<< HEAD
 
 a.footer-nav {
   text-align: center;
@@ -230,7 +230,6 @@ img.menu-container {
    background-position:center center;
    background-attachment:fixed;
  }
-=======
 .nav-white-logo {
   width: 60%;
   max-width: 200px;
@@ -280,4 +279,3 @@ img.menu-container {
   width: 90%;
   max-width: 300px;
 }
->>>>>>> 4973bbc1647368c7a89e032bb93b6c5312146fc3
