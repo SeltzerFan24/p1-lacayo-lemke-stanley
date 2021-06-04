@@ -38,3 +38,10 @@
   color: #49281A;
   line-height: 3.8rem;
 }
+#htwolarge {
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  font-weight: 400;
+  color: #49281A;
+  line-height: normal;
+}
