@@ -204,7 +204,12 @@ button:focus {
     display: contents;
   }
 }
-.w-100 {
+.social-carousel {
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+.social-carousel .w-100 {
   width: 90%;
   max-width: 300px;
 }
