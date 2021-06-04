@@ -153,8 +153,23 @@ p {
     max-width: 35%;
   }
 }
-.home-main .home-main-p {
-  max-width: 75%;
+@media (min-width: 1201px) {
+  .home-sec-two .home-menu-button {
+    max-width: 26%;
+  }
+}
+@media (min-width: 993px) {
+  .home-main .home-main-p {
+    max-width: 75%;
+  }
+}
+@media (min-width: 1201px) {
+  .home-main .home-main-p {
+    max-width: 100%;
+  }
+  .home-main .home-main-p p {
+    font-size: 24px;
+  }
 }
 .home-sec-three h2 {
   font-family: 'Playfair Display', serif;
@@ -162,6 +177,11 @@ p {
   font-weight: 400;
   color: #49281A;
   line-height: normal;
+}
+.about-bg-image {
+  background-image: url("../img/about-jumbo.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 footer,
 a {
