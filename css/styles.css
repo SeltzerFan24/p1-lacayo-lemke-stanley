@@ -97,6 +97,12 @@ body {
   border-radius: 0;
   padding: 0rem 2.5rem;
 }
+.button-style:hover {
+  background-color: #fad4d4;
+  transition: .5s;
+  color: #49281a;
+  border-color: #ab6831;
+}
 button:focus {
   outline: none;
 }
