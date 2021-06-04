@@ -106,9 +106,13 @@ body {
 button:focus {
   outline: none;
 }
+.navbar-light {
+  padding-top: 20px;
+}
 .navbar-light .navbar-toggler {
   border: 2px solid #49281a;
   border: 0;
+  padding-bottom: 50px;
 }
 .navbar-light .navbar-toggler .navbar-toggler-icon {
   background-image: url(../img/navbar-dark.png);
@@ -165,9 +169,40 @@ button:focus {
   max-width: 60px;
   padding: 5px;
 }
-.location-body {
+.location-body header {
   background-image: url("../img/location-jumbo.png");
   background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.location-body header .container {
+  padding-top: 50px;
+}
+@media (min-width: 575px) {
+  .location-body header .container .frame-bottom-mobile {
+    display: none;
+  }
+}
+.location-body header .container .locations-title h2 {
+  text-align: center;
+  color: #dfb78c;
+  padding: 25px 0;
+}
+.location-body header .container .location-summary .entry-location img {
+  width: 100%;
+  padding: 5px;
+}
+.location-body header .container .location-summary .entry-location h3 {
+  text-align: center;
+}
+.location-body header .container .frame-bottom-desktop {
+  display: none;
+}
+@media (min-width: 575px) {
+  .location-body header .container .frame-bottom-desktop {
+    display: contents;
+  }
 }
 .w-100 {
   width: 90%;
