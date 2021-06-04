@@ -191,7 +191,33 @@ p {
   background-position: center;
   background-repeat: no-repeat;
 }
-footer,
-a {
-  color: white;
+
+.footer-logo-left  {
+  float: left;
 }
+
+a.footer-nav {
+  text-align: center;
+}
+
+img.menu-container {
+  float: left;
+  width: 50%;
+}
+
+.menu-right {
+  float: right;
+  width: 50%;
+}
+
+.hero-menu {
+  width:100%;
+}
+
+
+#hero1{
+  background:url(img/menu-jumbo.png);
+   background-size:cover;
+   background-position:center center;
+   background-attachment:fixed;
+ }

@@ -26,8 +26,7 @@
 
 <body>
     <!-- Bootstrap Hamburger Menu, needs styling -->
-    <!-- I thought setting the image as a background image might work here -->
-<header>
+    <header>
     <div class="pos-f-t">
         <div class="collapse bar-collapse" id="navbarToggleExternalContent">
             <div class="open-nav p-4">
@@ -45,20 +44,26 @@
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <img src="img\nav-logo.png" title="Rosewood Cafe logo" alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
         </nav>
-    </div>
-        <div>
+    </div> 
+    </header>    
+       
+    <section id="hero1" class="hero">
+        <div class="inner">
+          <div class="copy">            
             <h2>Explore Our Menu</h2>
             <p>Lorem hello ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a aperiam ipsam sapiente.</p>
         </div>
-    </header>
+    </div>
+  </section>
 
     <main>
-        <div>
             <!--Lightbox for the menu-->
+    
+        <div class="menu-container">
             <a href="img\menu.png" data-lightbox="Our Menu" data-title="Rosewood Cafe Menu">
-            <img src="img\menu.png" title="Rosewood Cafe menu" alt="Rosewood Cafe Menu, navigate to the visit us page to find a location" /></a>
+            <img src="img\menu.png" class="menu-container" title="Rosewood Cafe menu" alt="Rosewood Cafe Menu, navigate to the visit us page to find a location" /></a>
+        </div>    
             <div class="menu-right">
                 <div class="frame-top">
                     <div class="frame-lc"><img src="img\topleftcorner.png" title="this sure is a nice frame"
@@ -92,22 +97,11 @@
                 </div>
     
                 <div class="footer-nav-middle">
-                <p>
-                    <a href="home.html" class="text" style="text-decoration: none;"> Home</a>
-                </p>
-                <p>
-                    <a href="menu.html" class="text" style="text-decoration: none;"> Menu</a>
-                </p>
-                <p>
-                    <a href="locations.html" class="text" style="text-decoration: none;"> Locations</a>
-                </p>
-                <p>
-                    <a href="catering.html" class="text" style="text-decoration: none;"> Catering</a>
-                </p>
-                <p>
-                    <a href="about.html" class="text" style="text-decoration: none;"> About</a>
-                </p>
-    
+                    <a href="home.html" class="footer-nav" style="text-decoration: none;"> Home</a>
+                    <a href="menu.html" class="footer-nav" style="text-decoration: none;"> Menu</a>
+                    <a href="locations.html" class="footer-nav" style="text-decoration: none;"> Locations</a>
+                    <a href="catering.html" class="footer-nav" style="text-decoration: none;"> Catering</a>
+                    <a href="about.html" class="footer-nav" style="text-decoration: none;"> About</a>
                 </div>
     
                 <div class="footer-socials-right">
