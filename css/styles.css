@@ -183,49 +183,225 @@ button:focus {
   max-width: 60px;
   padding: 5px;
 }
+@media (max-width: 575px) {
+  .onlydesktop {
+    display: none;
+  }
+}
 .location-body header {
   background-image: url("../img/location-jumbo.png");
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
+  background-color: #1b1b10;
   padding-bottom: 100px;
 }
-.location-body header .container {
+.location-body header .location-container1 {
   padding-top: 50px;
 }
+.location-body header .location-container1 .frame-top {
+  padding: 10px 10% 0 10%;
+}
 @media (min-width: 575px) {
-  .location-body header .container .frame-bottom-mobile {
+  .location-body header .location-container1 .frame-top {
+    padding: 0;
+  }
+}
+.location-body header .location-container1 .frame-bottom {
+  padding: 0 10% 10px 10%;
+}
+@media (min-width: 575px) {
+  .location-body header .location-container1 .frame-bottom-mobile {
     display: none;
   }
 }
-.location-body header .container .locations-title h2 {
+.location-body header .location-container1 .locations-title {
   text-align: center;
+  padding-bottom: 25px;
+}
+@media (min-width: 576px) {
+  .location-body header .location-container1 .locations-title {
+    padding-bottom: 0;
+  }
+}
+.location-body header .location-container1 .locations-title h2 {
   color: #dfb78c;
   padding: 25px 0;
 }
-.location-body header .container .location-summary .entry-location img {
-  width: 100%;
-  padding: 5px;
+@media (min-width: 576px) {
+  .location-body header .location-container1 .locations-title h2 {
+    padding: 0;
+  }
 }
-.location-body header .container .location-summary .entry-location h3 {
+.location-body header .location-container1 .locations-title h3 {
+  padding-bottom: 5px;
+}
+@media (min-width: 575px) {
+  .location-body header .location-container1 .locations-title h3 {
+    display: none;
+  }
+}
+@media (min-width: 576px) {
+  .location-body header .location-container1 .location-summary {
+    padding: 0 30px;
+  }
+}
+.location-body header .location-container1 .location-summary .entry-location {
+  padding: 30px 3%;
   text-align: center;
 }
-.location-body header .container .frame-bottom-desktop {
+.location-body header .location-container1 .location-summary .entry-location img {
+  width: 80%;
+  padding: 5px;
+}
+@media (min-width: 575px) {
+  .location-body header .location-container1 .location-summary .entry-location img {
+    width: 100%;
+  }
+}
+.location-body header .location-container1 .location-summary .entry-location h3 {
+  text-align: center;
+}
+@media (min-width: 575px) {
+  .location-body header .location-container1 .location-summary .entry-location h3 {
+    font-size: 16px;
+  }
+}
+@media (min-width: 800px) {
+  .location-body header .location-container1 .location-summary .entry-location h3 {
+    font-size: 26px;
+  }
+}
+.location-body header .location-container1 .frame-bottom-desktop {
   display: none;
 }
 @media (min-width: 575px) {
-  .location-body header .container .frame-bottom-desktop {
+  .location-body header .location-container1 .frame-bottom-desktop {
+    display: contents;
+    padding: 0;
+    display: flex;
+  }
+}
+.location-body .location-container2 {
+  padding: 0 0 100px 0;
+}
+@media (min-width: 576px) {
+  .location-body .location-container2 {
+    max-width: 100%;
+  }
+}
+.location-body .location-container2 .loca-row {
+  margin: 0;
+}
+@media (min-width: 576px) {
+  .location-body .location-container2 .loca-row {
     display: contents;
   }
 }
+@media (min-width: 725px) {
+  .location-body .location-container2 .loca-row {
+    display: flex;
+  }
+}
+@media (min-width: 725px) {
+  .location-body .location-container2 .loca-row .cg-desktop {
+    background-image: url("../img/coralgables-02.png");
+    background-size: cover;
+    background-position: top;
+  }
+}
+@media (min-width: 725px) {
+  .location-body .location-container2 .loca-row .cg-desktop img {
+    display: none;
+  }
+}
+@media (min-width: 725px) {
+  .location-body .location-container2 .loca-row .miami-desktop {
+    background-image: url("../img/miami-02.png");
+    background-size: cover;
+    background-position: top;
+  }
+}
+@media (min-width: 725px) {
+  .location-body .location-container2 .loca-row .miami-desktop img {
+    display: none;
+  }
+}
+@media (min-width: 725px) {
+  .location-body .location-container2 .loca-row .mb-desktop {
+    background-image: url("../img/middleburg-02.png");
+    background-size: cover;
+    background-position: top;
+  }
+}
+@media (min-width: 725px) {
+  .location-body .location-container2 .loca-row .mb-desktop img {
+    display: none;
+  }
+}
+.location-body .location-container2 .loca-row .width50 {
+  padding: 0;
+}
+.location-body .location-container2 .loca-row .width50 img {
+  width: 100%;
+}
+.location-body .location-container2 .loca-row .width50 .location-info {
+  padding: 30px 5% 60px 5%;
+  text-align: center;
+}
+@media (min-width: 575px) {
+  .location-body .location-container2 .loca-row .width50 .location-info {
+    text-align: left;
+  }
+}
+.location-body .location-container2 .loca-row .width50 .location-info p {
+  font-size: 20px;
+  text-align: left;
+}
+@media (min-width: 725px) {
+  .location-body .location-container2 .miami-row {
+    flex-direction: row-reverse;
+  }
+}
+@media (min-width: 725px) {
+  .location-body .location-container2 .miami-row .width50 .location-info-mia {
+    text-align: right;
+  }
+}
+@media (min-width: 725px) {
+  .location-body .location-container2 .miami-row .width50 .location-info-mia p {
+    text-align: right;
+  }
+}
 .social-carousel {
-  max-width: 700px;
   text-align: center;
   margin: auto;
+  padding: 5%;
 }
 .social-carousel .w-100 {
   width: 90%;
   max-width: 300px;
+}
+.social-carousel .social-h2 {
+  font-size: 40px;
+  padding: 0 3% 10px 3%;
+  max-width: 300px;
+  text-align: center;
+  margin: auto;
+}
+@media (min-width: 575px) {
+  .social-carousel .social-h2 {
+    max-width: 100%;
+  }
+}
+.social-carousel .carousel-inner {
+  padding: 10px 5% 30px 5%;
+}
+.social-carousel .frame-top {
+  padding-bottom: 10px;
+}
+.social-carousel .frame-bottom {
+  padding-top: 55px;
 }
 h1,
 h2 {
