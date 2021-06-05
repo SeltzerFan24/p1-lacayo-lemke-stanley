@@ -312,6 +312,23 @@ p {
 .about-bg-image .about-est p {
   font-size: 1.4rem;
 }
+.catering-bg-image header {
+  background-image: url("../img/catering-jumbo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 200px;
+}
+.catering-bg-image header .catering-header h2 {
+  color: white;
+}
+.catering-bg-image header .catering-header p {
+  color: white;
+  font-size: 1.4rem;
+}
+.form-group {
+  font-family: 'Lato', sans-serif;
+}
 footer,
 a {
   color: white;

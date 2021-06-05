@@ -21,7 +21,7 @@
     <title>Catering</title>
 </head>
 
-<body>
+<body class="catering-bg-image">
     <!-- Bootstrap Hamburger Menu, needs styling -->
     <!-- I thought setting the image as a background image might work here -->
     <header>
@@ -46,45 +46,55 @@
                     alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
             </nav>
         </div>
-        <div>
-            <h2>Catering</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat
-                adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a
-                aperiam ipsam sapiente.</p>
+
+        <div class="content catering-header text-center ">
+            <div class="row justify-content-center mx-4 justify-content-md-start">
+                <h2 class="col-sm-10 col-md-12 text-md-left">Catering</h2>
+                <p class="col-sm-10 col-md-6 text-md-left col-xl-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat
+                    adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a
+                    aperiam ipsam sapiente.</p>
+            </div>
         </div>
     </header>
 
-    <main>
-        <div>
-            <!-- This clearly needs styling, check out Bootstrap documentation on forms https://getbootstrap.com/docs/4.1/components/forms/ -->
-            <form>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">First Name:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+    <main class="mt-lg-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-lg-4 col-xl-5">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">First Name:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Last Name:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Telephone:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email:</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                                placeholder="email@gmail.com">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group pb-3">
+                            <label for="exampleFormControlTextarea1">Share your request in detail here:</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <div class="text-center pb-5">
+                            <button type="submit" class="btn button-style">Submit</button>
+                        </div>
+                    </form>
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Last Name:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
+                <div class="mx-0 col-sm-12 col-lg-8 col-xl-7">
+                    <img class="img-fluid pb-5 mx-0 pb-lg-0" src="img\catering-donuts.png" title="we bring the donuts to you"
+                    alt="four brown donuts with light brown glaze" />
                 </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Telephone:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Email:</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                        placeholder="email@gmail.com">
-                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                        else.</small>
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Share your request in detail here:</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn button-style">Submit</button>
-            </form>
-            <img src="img\catering-donuts.png" title="we bring the donuts to you"
-                alt="four brown donuts with light brown glaze" />
+            </div>
         </div>
     </main>
 
