@@ -242,6 +242,18 @@ p {
         background-repeat: @no-repeat;
         background-size: @background-size;
         padding-bottom: @padding-bottom;
+        @media (min-width: 992px) {
+            padding-bottom: @paddingb-lg;
+        }
+        @media (min-width: 1400px) {
+            padding-bottom: @paddingb-xl;
+        }
+        @media (min-width: 1750px) {
+            padding-bottom: @paddingb-xxl;
+        }
+        @media (min-width: 2100px) {
+            padding-bottom: @paddingb-xxxl;
+        }
    } 
    .about-est {
        h2 {

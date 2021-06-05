@@ -281,10 +281,30 @@ p {
 }
 .about-bg-image header {
   background-image: url("../img/about-jumbo.png");
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
+}
+@media (min-width: 992px) {
+  .about-bg-image header {
+    padding-bottom: 350px;
+  }
+}
+@media (min-width: 1400px) {
+  .about-bg-image header {
+    padding-bottom: 450px;
+  }
+}
+@media (min-width: 1750px) {
+  .about-bg-image header {
+    padding-bottom: 550px;
+  }
+}
+@media (min-width: 2100px) {
+  .about-bg-image header {
+    padding-bottom: 700px;
+  }
 }
 .about-bg-image .about-est h2 {
   color: white;
