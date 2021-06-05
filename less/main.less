@@ -443,8 +443,89 @@ p {
     font-family: @body-font;
 }
 
+//menu 
 
-footer, a { 
-    color: @white;
-   }
+.menu-hero-image {
+    header {
+         background-image: @menu-bg;
+         background-position: @menu-bg-position;
+         background-repeat: @no-repeat;
+         background-size: @background-size;
+         @media (min-width: 992px) {
+             padding-bottom: @padding-bottom;
+         }
+         @media (min-width: 1400px) {
+             padding-bottom: @paddingb-xl;
+         }
+         @media (min-width: 1750px) {
+             padding-bottom: @paddingb-xxl;
+         }
+         @media (min-width: 2100px) {
+             padding-bottom: @paddingb-xxxl;
+         }
+        }
+        div.explore-our-menu {
+            color: white;
+            padding-left: 15%;
+            padding-right: 15%;
+            padding-top: 2%;
+            padding-bottom: 5%;
 
+
+        }
+
+        .explore-our-menu {
+            h2 {
+                color: @white;
+            }
+            p {
+                color:@white;
+                font-size: @mobile-body-size;
+            }
+         }
+
+         img.menu-container {
+            float: left;
+            width: 50%;
+            padding:5%;
+          }
+          
+          .menu-right {
+            float: right;
+            width: 45%;
+            padding-top: 5%;
+            padding-right: 5%;
+          }
+          
+          a.menu-right{
+              margin-left: 5%;
+          }
+
+          .btn {
+              margin-left: 25%;
+          }
+          
+//footer
+
+    .footer-section {
+        padding-top:70%;
+        font-family: @body-font;
+        color: @dark-brown;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: space-around;
+        font-family: @body-font;
+        color: @dark-brown;
+        padding:10%;
+    }
+
+    .social-links {
+        padding-top:5%;
+        float: right;
+    }
+   
+}
