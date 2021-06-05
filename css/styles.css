@@ -31,38 +31,27 @@
   -webkit-transform: translateY(8px);
   transform: translateY(8px);
 }
-
 #button-hover {
   background-color: #fad4d4;
   transition: .5s;
   color: #49281a;
   border-color: #ab6831;
 }
-
 #htwo {
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
   font-weight: 400;
-  color: #49281A;
+  color: #49281a;
   line-height: 3.8rem;
 }
-
 #htwolarge {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
   font-weight: 400;
-  color: #49281A;
+  color: #49281a;
   line-height: normal;
 }
-.navlogo {
-  max-width: 30%;
-}
-@media (min-width: 769px) {
-  .navlogo {
-    max-width: 20%;
-  }
-
-  .frame-top {
+.frame-top {
   position: relative;
   display: flex;
   width: 100%;
@@ -108,12 +97,22 @@ body {
   border-radius: 0;
   padding: 0rem 2.5rem;
 }
+.button-style:hover {
+  background-color: #fad4d4;
+  transition: .5s;
+  color: #49281a;
+  border-color: #ab6831;
+}
 button:focus {
   outline: none;
+}
+.navbar-light {
+  padding-top: 20px;
 }
 .navbar-light .navbar-toggler {
   border: 2px solid #49281a;
   border: 0;
+  padding-bottom: 50px;
 }
 .navbar-light .navbar-toggler .navbar-toggler-icon {
   background-image: url(../img/navbar-dark.png);
@@ -129,12 +128,97 @@ button:focus {
 .open-nav a {
   color: #fff6ee;
 }
+.nav-white-logo {
+  width: 60%;
+  max-width: 200px;
+  padding: 5px;
+}
+.index-logo {
+  text-align: center;
+  padding: 150px 0 20px 0;
+}
+.index-logo img {
+  width: 100%;
+  max-width: 500px;
+}
+.index-info {
+  text-align: center;
+}
+.index-info .index-button {
+  color: #dfb78c;
+  border-color: #fff6ee;
+  transition: .5s;
+}
+.index-info .index-button:hover {
+  background-color: #fad4d4;
+  transition: .5s;
+  color: #49281a;
+  border-color: #ab6831;
+}
+.index-info .index-p {
+  color: #fff6ee;
+  text-transform: uppercase;
+  padding: 20px;
+  padding: 20px 0 20px 0;
+}
+.index-social-section {
+  text-align: center;
+}
+.index-social-section .index-social {
+  width: 100%;
+  max-width: 60px;
+  padding: 5px;
+}
+.location-body header {
+  background-image: url("../img/location-jumbo.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.location-body header .container {
+  padding-top: 50px;
+}
+@media (min-width: 575px) {
+  .location-body header .container .frame-bottom-mobile {
+    display: none;
+  }
+}
+.location-body header .container .locations-title h2 {
+  text-align: center;
+  color: #dfb78c;
+  padding: 25px 0;
+}
+.location-body header .container .location-summary .entry-location img {
+  width: 100%;
+  padding: 5px;
+}
+.location-body header .container .location-summary .entry-location h3 {
+  text-align: center;
+}
+.location-body header .container .frame-bottom-desktop {
+  display: none;
+}
+@media (min-width: 575px) {
+  .location-body header .container .frame-bottom-desktop {
+    display: contents;
+  }
+}
+.social-carousel {
+  max-width: 700px;
+  text-align: center;
+  margin: auto;
+}
+.social-carousel .w-100 {
+  width: 90%;
+  max-width: 300px;
+}
 h1,
 h2 {
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
   font-weight: 400;
-  color: #49281A;
+  color: #49281a;
   line-height: 3.8rem;
 }
 h3 {
@@ -157,7 +241,7 @@ p {
     font-family: 'Playfair Display', serif;
     font-size: 60px;
     font-weight: 400;
-    color: #49281A;
+    color: #49281a;
     line-height: normal;
   }
   .home-sec-two h1 .home-line-break {
@@ -192,94 +276,60 @@ p {
   font-family: 'Playfair Display', serif;
   font-size: 60px;
   font-weight: 400;
-  color: #49281A;
+  color: #49281a;
   line-height: normal;
 }
-.about-bg-image {
-  background-image: url("..img/about-jumbo.png");
-  background-position: center;
+.about-bg-image header {
+  background-image: url("../img/about-jumbo.png");
+  background-position: bottom;
   background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 250px;
+}
+@media (min-width: 992px) {
+  .about-bg-image header {
+    padding-bottom: 350px;
+  }
+}
+@media (min-width: 1400px) {
+  .about-bg-image header {
+    padding-bottom: 450px;
+  }
+}
+@media (min-width: 1750px) {
+  .about-bg-image header {
+    padding-bottom: 550px;
+  }
+}
+@media (min-width: 2100px) {
+  .about-bg-image header {
+    padding-bottom: 700px;
+  }
+}
+.about-bg-image .about-est h2 {
+  color: #ffffff;
+}
+.about-bg-image .about-est p {
+  font-size: 1.4rem;
+}
+.catering-bg-image header {
+  background-image: url("../img/catering-jumbo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 200px;
+}
+.catering-bg-image header .catering-header h2 {
+  color: #ffffff;
+}
+.catering-bg-image header .catering-header p {
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+.form-group {
+  font-family: 'Lato', sans-serif;
 }
 footer,
 a {
   color: #ffffff;
-
-<<<<<<< HEAD
-#button-hover {
-=======
-.footer-logo-left  {
-  float: left;
 }
-
-a.footer-nav {
-  text-align: center;
-}
-
-img.menu-container {
-  float: left;
-  width: 50%;
-}
-
-.menu-right {
-  float: right;
-  width: 50%;
-}
-
-.hero-menu {
-  width:100%;
-}
-
-
-#hero1{
-  background:url(../img/menu-jumbo.png);
-   background-size:cover;
- }
-.nav-white-logo {
-  width: 60%;
-  max-width: 200px;
-  padding: 5px;
-}
-.index-logo {
-  text-align: center;
-  padding: 150px 0 20px 0;
-}
-.index-logo img {
-  width: 100%;
-  max-width: 500px;
-}
-.index-info {
-  text-align: center;
-}
-.index-info .index-button {
-  color: #dfb78c;
-  border-color: #fff6ee;
-  transition: .5s;
-}
-.index-info .index-button:hover {
->>>>>>> main
-  background-color: #fad4d4;
-  transition: .5s;
-  color: #49281a;
-  border-color: #ab6831;
-
-  .footer-logo-left  {
-    float: left;
-  }
-  
-  a.footer-nav {
-    text-align: center;
-  }
-  
-  img.menu-container {
-    float: left;
-    width: 50%;
-  }
-  
-  .menu-right {
-    float: right;
-    width: 50%;
-  }
-  
-  .hero-menu {
-    width:50%;
-  }

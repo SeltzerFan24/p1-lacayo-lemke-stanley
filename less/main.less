@@ -1,9 +1,7 @@
 @import "./variables.less";
 @import "./mixins.less";
 
-
-
-//Frame for all Pages
+//Frame
 .frame-top {
     #frame-top
 }
@@ -26,7 +24,6 @@
     #hvr-sink
 }
 
-
 body {
     background-color: @primary-color;
 }
@@ -40,6 +37,9 @@ body {
     border: @button-border;
     border-radius: @no-radius;
     padding: @button-padding;
+     &:hover{
+           #button-hover
+     }
 }
 
 button:focus {
@@ -47,15 +47,16 @@ button:focus {
 }
 
 .navbar-light {
+    padding-top: 20px;
     .navbar-toggler {
         border: @nav-menu-border;
         border: @no-radius;
+        padding-bottom: 50px;
         .navbar-toggler-icon {
             background-image: url(../img/navbar-dark.png);
         }
     }
 }
-
 
 .open-nav {
     background-color: @dark-brown;
@@ -63,18 +64,17 @@ button:focus {
     font-weight: @nav-weight;
         h5{
             color: @light-brown;
+        }
         a {
             color: @primary-color;
         }
 }
-
 
 .nav-white-logo {
     width: 60%;
     max-width: 200px;
     padding: 5px;
 }
-
 
 //Index Page
 
@@ -117,16 +117,58 @@ button:focus {
 //Location Page
 
 .location-body {
+    header {
         background-image: url("../img/location-jumbo.png");
         background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        padding-bottom: 100px;
+        .container {
+            padding-top: 50px;
+            .frame-bottom-mobile {
+                @media (min-width: 575px) {
+                display: none;
+                }   
+            }
+            .locations-title {
+                h2 {
+                    text-align: center;
+                    color: @light-brown;
+                    padding: 25px 0;
+                }
+            }
+            .location-summary {
+                .entry-location {
+                    img {
+                        width: 100%;
+                        padding: 5px;
+                    }
+                    h3 {
+                        text-align: center;
+                    }
+                }
+            }
+            .frame-bottom-desktop {
+                display: none;
+                @media (min-width: 575px) {
+                display: contents;
+                }   
+            }
+        }
+    }      
 }
 
 //Carousel
-.w-100 {
-    width: 90%;
-    max-width: 300px;
-}
 
+.social-carousel {
+    max-width: 700px;
+    text-align: center;
+    margin: auto;
+    .w-100 {
+        width: 90%;
+        max-width: 300px;
+    }
+}
 // home mobile text
 h1, h2 {
     #htwo;
@@ -194,7 +236,79 @@ p {
 // about page
 
 .about-bg-image {
-    background-image: @about-bg;
-    background-position: @about-bg-position;
-    background-repeat: @no-repeat;
+   header {
+        background-image: @about-bg;
+        background-position: @about-bg-position;
+        background-repeat: @no-repeat;
+        background-size: @background-size;
+        padding-bottom: @padding-bottom;
+        @media (min-width: 992px) {
+            padding-bottom: @paddingb-lg;
+        }
+        @media (min-width: 1400px) {
+            padding-bottom: @paddingb-xl;
+        }
+        @media (min-width: 1750px) {
+            padding-bottom: @paddingb-xxl;
+        }
+        @media (min-width: 2100px) {
+            padding-bottom: @paddingb-xxxl;
+        }
+   } 
+   .about-est {
+       h2 {
+           color: @white;
+       }
+       p {
+        font-size: @mobile-body-size;
+       }
+    }
 }
+
+// catering page
+
+.catering-bg-image {
+    header {
+        background-image: @catering-bg;
+        background-repeat: @no-repeat;
+        background-size: @background-size;
+        background-position: @catering-bg-position;
+        padding-bottom: @catering-pb;
+        .catering-header {
+            h2 {
+                color: @white;
+            }
+            p {
+                color: @white;
+                font-size: @mobile-body-size;
+            }
+        }
+    }
+} 
+
+.form-group {
+    font-family: @body-font;
+}
+
+//menu 
+
+.menu-hero-image {
+    header {
+         background-image: @menu-bg;
+         background-position: @menu-bg-position;
+         background-repeat: @no-repeat;
+         background-size: @background-size;
+         padding-bottom: @padding-bottom;
+         @media (min-width: 992px) {
+             padding-bottom: @paddingb-lg;
+         }
+         @media (min-width: 1400px) {
+             padding-bottom: @paddingb-xl;
+         }
+         @media (min-width: 1750px) {
+             padding-bottom: @paddingb-xxl;
+         }
+         @media (min-width: 2100px) {
+             padding-bottom: @paddingb-xxxl;
+         }
+        }
