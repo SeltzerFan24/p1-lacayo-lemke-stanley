@@ -298,9 +298,8 @@ p {
          background-position: @menu-bg-position;
          background-repeat: @no-repeat;
          background-size: @background-size;
-         padding-bottom: @padding-bottom;
          @media (min-width: 992px) {
-             padding-bottom: @paddingb-lg;
+             padding-bottom: 100px;
          }
          @media (min-width: 1400px) {
              padding-bottom: @paddingb-xl;
@@ -312,3 +311,52 @@ p {
              padding-bottom: @paddingb-xxxl;
          }
         }
+        div.explore-our-menu {
+            color: white;
+            padding: 5%;
+        }
+
+        .explore-our-menu {
+            h2 {
+                color: @white;
+            }
+            p {
+                color:@white;
+                font-size: @mobile-body-size;
+            }
+         }
+
+         img.menu-container {
+            float: left;
+            width: 50%;
+            padding:5%;
+          }
+          
+          .menu-right {
+            float: right;
+            width: 45%;
+            padding-top: 5%;
+            padding-right: 5%;
+          }
+          
+//footer
+
+    .footer-section {
+    font-family: @body-font;
+    }
+
+    .nav-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-family: @body-font;
+        padding:10%;
+    }
+
+    .social-links {
+        float: right;
+    }
+
+
+   
+}

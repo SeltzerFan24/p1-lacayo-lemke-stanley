@@ -52,57 +52,71 @@
         <div class="explore-our-menu">
             <div class="row row-cols-1 justify-content-center text-center">
                 <h2>Explore Our Menu</h2>
-                <p class="pb-5 col-11 col-md-10 col-lg-7"></p>>Lorem hello ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a aperiam ipsam sapiente.</p>
+                <p class="pb-5 col-11 col-md-10 col-lg-7"></p>Lorem hello ipsum dolor sit amet consectetur adipisicing elit. Iusto amet laudantium voluptatibus repellat adipisci porro suscipit, perferendis illum expedita aliquam id itaque eveniet, ipsa vero? Illum a aperiam ipsam sapiente.</p>
             </div>
         </div>
     </div>
 
 </header>
 
-    <main>
-        <div>
+    <section>
             <!--Lightbox for the menu-->
-            <a href="img\menu.png" data-lightbox="Our Menu" data-title="Rosewood Cafe Menu">
-            <img src="img\menu.png" title="Rosewood Cafe menu" alt="Rosewood Cafe Menu, navigate to the visit us page to find a location" /></a>
-            <div>
-                <div class="frame-top">
-                    <div class="frame-lc"><img src="img\topleftcorner.png" title="this sure is a nice frame"
-                            alt="light brown corner of a frame" /></div>
-                    <div class="frame-rc"><img src="img\toprightcorner.png" title="this sure is a nice frame"
-                            alt="light brown corner of a frame" /></div>
-                </div>
-                <h2>& There's More</h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta vero laudantium, rerum quasi quam tempora sed sequi
-                    quaerat, voluptas ipsum ratione necessitatibus. Culpa ratione repudiandae, molestias velit tempore incidunt magni.
-                </p>
-                <a class="btn button-style" href="catering.html" role="button">Catering</a>
-                <div class="frame-bottom">
-                    <div class="frame-lc"><img src="img\bottomleftcorner.png" title="this sure is a nice frame"
-                            alt="light brown corner of a frame" /></div>
-                    <div class="frame-rc"><img src="img\bottomrightcorner.png" title="this sure is a nice frame"
-                            alt="light brown corner of a frame" /></div>
+            <div class="menu-container">
+                <a href="img\menu.png" data-lightbox="Our Menu" data-title="Rosewood Cafe Menu">
+                <img src="img\menu.png" class="menu-container" title="Rosewood Cafe menu" alt="Rosewood Cafe Menu, navigate to the visit us page to find a location" /></a>
+            </div>    
+                <div class="menu-right">
+                    <div class="frame-top">
+                        <div class="frame-lc"><img src="img\topleftcorner.png" title="this sure is a nice frame"
+                                alt="light brown corner of a frame" /></div>
+                        <div class="frame-rc"><img src="img\toprightcorner.png" title="this sure is a nice frame"
+                                alt="light brown corner of a frame" /></div>
+                    </div>
+                    <h2>& There's More</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta vero laudantium, rerum quasi quam tempora sed sequi
+                        quaerat, voluptas ipsum ratione necessitatibus. Culpa ratione repudiandae, molestias velit tempore incidunt magni.
+                    </p>
+                    <a class="btn button-style" href="catering.html" role="button">Catering</a>
+                    <div class="frame-bottom">
+                        <div class="frame-lc"><img src="img\bottomleftcorner.png" title="this sure is a nice frame"
+                                alt="light brown corner of a frame" /></div>
+                        <div class="frame-rc"><img src="img\bottomrightcorner.png" title="this sure is a nice frame"
+                                alt="light brown corner of a frame" /></div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </main>
+    </section>
 
-    <footer>
-        <div>
-            <img src="img\footer-logo.png" title="Rosewood Cafe logo"
+    <footer class="footer-section">
+    
+        <div class="row">
+
+            <div class="col-md-4">
+                <img src="img\footer-logo.png" title="Rosewood Cafe logo"
                 alt="logo featuring a swirly coffee cup and elegant text reading Rosewood Cafe" />
-            <div>
-                <a href="home.html" class="d-block">Home</a>
-                <a href="menu.html" class="d-block">Menu</a>
-                <a href="locations.html" class="d-block">Locations</a>
-                <a href="catering.html" class="d-block">Catering</a>
-                <a href="about.html" class="d-block">Our Story</a>
             </div>
-            <div class="container">
-                <a href="#"><img src="img\nav-fb.png" title="visit our Facebook!" alt="brown Facebook logo" /></a>
-                <a href="#"><img src="img\nav-ig.png" title="visit our Instagram!" alt="brown Instagram logo" /></a>
+
+            <div class="col-md-4">
+                <div class="nav-links">
+                    <a href="home.html" class="text-dark" style="text-decoration: none;"> Home</a>
+                    <a href="menu.html" class="text-dark" style="text-decoration: none;"> Menu</a>
+                    <a href="locations.html" class="text-dark" style="text-decoration: none;"> Locations</a>
+                    <a href="catering.html"  class="text-dark" style="text-decoration: none;"> Catering</a>
+                    <a href="about.html" class="text-dark" style="text-decoration: none;"> About</a>
+                </div>
             </div>
+
+            <div class="col-md-4">
+                <div class="social-links">
+                    <a href="#"><img src="img\nav-fb.png" title="visit our Facebook!" alt="brown Facebook logo" /></a>
+                    <a href="#"><img src="img\nav-ig.png" title="visit our Instagram!" alt="brown Instagram logo" /></a> 
+                </div>
+            </div>
+            
         </div>
-    </footer>
+        
+</footer>
+
     <!--Bootstrap Scripts w/ jQuery-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
