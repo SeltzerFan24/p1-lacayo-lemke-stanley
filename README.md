@@ -1,21 +1,6 @@
 # p1-lacayo-lemke-stanley
 Advanced Web 2 Group Project 1
 
-Need help with GitHub or LESS?
+Our group had major issues working with GitHub. We attribute this to being unfamiliar with working ona group coding project together. After trying to resolve the problem on our owm, we contacted our professor who explained the problem and proper procedures. This will undoubtably help with out GitHub use in the future.
 
-Push Branches:
-    create branch after cloning repo from GitHub
-    create branch using terminal: git branch lastname-branch
-    switch to your branch: git checkout lastname-branch
-    make desired changes to code
-    push to GitHub: git push -u origin lastname-branch
-
-Pull Repo to Your Branch:
-    use terminal to make sure you're on lastname-branch
-    terminal command: git pull
-
-Using Node to compile LESS: 
-    use terminal in VSCode (pull terminal up from the bottom of the screen)
-    type "lessc less/main.less css/styles.css" without the quotation marks each time you wish to update the CSS file
-
-There is no project requirement to compile this way, use Koala if you like!
+Stanley's challenges: It took me a while to get a handle on some of the more complicated Bootstrap layout aspects on the homepage, which was a problem I solved with Bootstrap documentation. I also had difficulty with the backgreound image on about.html which requried some trial and error with background image properties.  
