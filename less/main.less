@@ -116,35 +116,79 @@ button:focus {
 
 //Location Page
 
+
+.onlydesktop {
+    @media (max-width: 575px) {
+        display: none;
+    }
+}
+
 .location-body {
     header {
         background-image: url("../img/location-jumbo.png");
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
+        background-color: #1b1b10;
         padding-bottom: 100px;
-        .container {
+        .location-container1 {
             padding-top: 50px;
+            .frame-top {
+                padding: 10px 10% 0 10%;
+                @media (min-width: 575px) {
+                    padding: 0;
+                }
+            }
+            .frame-bottom {
+                padding: 0 10% 10px 10%;
+            }
             .frame-bottom-mobile {
                 @media (min-width: 575px) {
                 display: none;
                 }   
             }
             .locations-title {
+                text-align: center;
+                padding-bottom: 25px;
+                 @media (min-width: 576px) {
+                    padding-bottom: 0;
+                }
                 h2 {
-                    text-align: center;
                     color: @light-brown;
                     padding: 25px 0;
+                     @media (min-width: 576px) {
+                        padding: 0;
+                    }
+                }
+                h3 {
+                    padding-bottom: 5px;
+                    @media (min-width: 575px) {
+                        display: none;
+                    }
                 }
             }
             .location-summary {
+                @media (min-width: 576px) {
+                    padding: 0 30px;
+                }
                 .entry-location {
+                    padding: 30px 3%;
+                    text-align: center;
                     img {
-                        width: 100%;
+                        width: 80%;
                         padding: 5px;
+                        @media (min-width: 575px) {
+                            width: 100%;
+                        }
                     }
                     h3 {
                         text-align: center;
+                        @media (min-width: 575px) {
+                            font-size: 16px;
+                        }
+                        @media (min-width: 800px) {
+                            font-size: 26px;
+                        }
                     }
                 }
             }
@@ -152,23 +196,132 @@ button:focus {
                 display: none;
                 @media (min-width: 575px) {
                 display: contents;
-                }   
+                padding: 0;
+                display: flex;
+                }  
             }
         }
-    }      
+    } 
+    .location-container2 {
+        padding: 0 0 100px 0;
+        @media (min-width: 576px) {
+            max-width: 100%;
+        }
+        .loca-row {
+            margin: 0;
+            @media (min-width: 576px) {
+                display: contents;
+            }
+            @media (min-width: 725px) {
+                display: flex;
+            }
+            .cg-desktop {
+                @media (min-width: 725px) {
+                    background-image: url("../img/coralgables-02.png");
+                    background-size: cover;
+                    background-position: top;
+                }
+                img {
+                    @media (min-width: 725px) {
+                        display: none;
+                    }
+                }
+            }
+            .miami-desktop {
+                @media (min-width: 725px) {
+                    background-image: url("../img/miami-02.png");
+                    background-size: cover;
+                    background-position: top;
+                }
+                img {
+                    @media (min-width: 725px) {
+                        display: none;
+                    }
+                }
+            }
+            .mb-desktop {
+                @media (min-width: 725px) {
+                    background-image: url("../img/middleburg-02.png");
+                    background-size: cover;
+                    background-position: top;
+                }
+                img {
+                    @media (min-width: 725px) {
+                        display: none;
+                    }
+                }
+            }
+            .width50 {
+                padding: 0;
+                img {
+                    width: 100%;
+                }
+                .location-info {
+                    padding: 30px 5% 60px 5%;
+                    text-align: center;
+                    @media (min-width: 575px) {
+                        text-align: left;
+                    }
+                    p {
+                        font-size: 20px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+        .miami-row {
+            @media (min-width: 725px) {
+                flex-direction: row-reverse;
+            }
+            .width50 {
+                .location-info-mia {
+                    @media (min-width: 725px) {
+                    text-align: right;
+                    }
+                    p {
+                        @media (min-width: 725px) {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }     
 }
 
 //Carousel
 
 .social-carousel {
-    max-width: 700px;
     text-align: center;
     margin: auto;
+    padding: 5%;
     .w-100 {
         width: 90%;
         max-width: 300px;
     }
+    .social-h2 {
+        font-size: 40px;
+        padding: 0 3% 10px 3%;
+        max-width: 300px;
+        text-align: center;
+        margin: auto;
+        @media (min-width: 575px) {
+            max-width: 100%;
+        }
+    }
+    .carousel-inner {
+        padding: 10px 5% 30px 5%;
+    }
+    .frame-top {
+        padding-bottom: 10px;
+    }
+    .frame-bottom {
+        padding-top: 55px;
+    }
 }
+
+
+
 // home mobile text
 h1, h2 {
     #htwo;
@@ -311,6 +464,7 @@ p {
              padding-bottom: @paddingb-xxxl;
          }
         }
+    }       
 
         div.explore-our-menu {
             color: white;
@@ -347,5 +501,3 @@ p {
         color: @dark-brown;
         padding:10%;
     }
-   
-}
