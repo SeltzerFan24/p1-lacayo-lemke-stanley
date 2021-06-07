@@ -32,10 +32,10 @@
   transform: translateY(8px);
 }
 #button-hover {
-  background-color: #FAD4D4;
-  transition: 0.5s;
-  color: #49281A;
-  border-color: #AB6831;
+  background-color: #fad4d4;
+  transition: .5s;
+  color: #49281a;
+  border-color: #ab6831;
 }
 #htwo {
   font-family: 'Playfair Display', serif;
@@ -85,23 +85,23 @@
   transform: translateY(8px);
 }
 body {
-  background-color: #FFF6EE;
+  background-color: #fff6ee;
 }
 .button-style {
   font-family: 'Playfair Display', serif;
   font-weight: 400;
   font-size: 31px;
-  color: #49281A;
+  color: #49281a;
   text-transform: uppercase;
-  border: 2px solid #AB6831;
+  border: 2px solid #ab6831;
   border-radius: 0;
   padding: 0rem 2.5rem;
 }
 .button-style:hover {
-  background-color: #FAD4D4;
-  transition: 0.5s;
-  color: #49281A;
-  border-color: #AB6831;
+  background-color: #fad4d4;
+  transition: .5s;
+  color: #49281a;
+  border-color: #ab6831;
 }
 button:focus {
   outline: none;
@@ -118,15 +118,15 @@ button:focus {
   background-image: url(../img/navbar-dark.png);
 }
 .open-nav {
-  background-color: #49281A;
+  background-color: #49281a;
   font-family: 'Lato', sans-serif;
   font-weight: 400;
 }
 .open-nav h5 {
-  color: #DFB78C;
+  color: #dfb78c;
 }
 .open-nav a {
-  color: #FFF6EE;
+  color: #fff6ee;
 }
 .nav-white-logo {
   width: 60%;
@@ -137,6 +137,11 @@ button:focus {
   text-align: center;
   padding: 150px 0 20px 0;
 }
+@media (max-width: 575px) {
+  .index-logo {
+    padding: 75px 0 20px 0;
+  }
+}
 .index-logo img {
   width: 100%;
   max-width: 500px;
@@ -145,21 +150,27 @@ button:focus {
   text-align: center;
 }
 .index-info .index-button {
-  color: #DFB78C;
-  border-color: #FFF6EE;
-  transition: 0.5s;
+  color: #dfb78c;
+  border-color: #fff6ee;
+  transition: .5s;
 }
 .index-info .index-button:hover {
-  background-color: #FAD4D4;
-  transition: 0.5s;
-  color: #49281A;
-  border-color: #AB6831;
+  background-color: #fad4d4;
+  transition: .5s;
+  color: #49281a;
+  border-color: #ab6831;
 }
 .index-info .index-p {
-  color: #FFF6EE;
+  color: #fff6ee;
   text-transform: uppercase;
   padding: 20px;
   padding: 20px 0 20px 0;
+}
+@media (max-width: 575px) {
+  .index-info .index-p {
+    max-width: 320px;
+    margin: auto;
+  }
 }
 .index-social-section {
   text-align: center;
@@ -211,7 +222,7 @@ button:focus {
   }
 }
 .location-body header .location-container1 .locations-title h2 {
-  color: #DFB78C;
+  color: #dfb78c;
   padding: 25px 0;
 }
 @media (min-width: 576px) {
@@ -399,7 +410,7 @@ h2 {
 }
 h3 {
   font-family: 'Playfair Display', serif;
-  color: #AB6831;
+  color: #ab6831;
   text-transform: uppercase;
 }
 p {
@@ -483,7 +494,7 @@ p {
   }
 }
 .about-bg-image .about-est h2 {
-  color: white;
+  color: #ffffff;
 }
 .about-bg-image .about-est p {
   font-size: 1.4rem;
@@ -496,10 +507,10 @@ p {
   padding-bottom: 200px;
 }
 .catering-bg-image header .catering-header h2 {
-  color: white;
+  color: #ffffff;
 }
 .catering-bg-image header .catering-header p {
-  color: white;
+  color: #ffffff;
   font-size: 1.4rem;
 }
 .form-group {
@@ -539,15 +550,15 @@ div.explore-our-menu {
   padding-bottom: 5%;
 }
 .explore-our-menu h2 {
-  color: white;
+  color: #ffffff;
 }
 .explore-our-menu p {
-  color: white;
+  color: #ffffff;
   font-size: 26px;
 }
 .footer-section {
   font-family: 'Lato', sans-serif;
-  color: #49281A;
+  color: #49281a;
   margin-top: 150px;
 }
 .nav-links {
@@ -556,6 +567,6 @@ div.explore-our-menu {
   align-content: space-around;
   justify-content: space-around;
   font-family: 'Lato', sans-serif;
-  color: #49281A;
+  color: #49281a;
   padding: 10% 0 10%;
 }
